@@ -1,5 +1,6 @@
 # JS-Parallax
 
+```
 var paraEl = document.querySelectorAll("[data-speed]");
 const parallax = () =>{
     paraEl.forEach(e=>{	
@@ -17,3 +18,5 @@ const parallax = () =>{
 }
 window.addEventListener("scroll", parallax, {passive: true});
 parallax();
+
+```

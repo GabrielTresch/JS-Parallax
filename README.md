@@ -1,5 +1,13 @@
 # JS-Parallax
 
+You have to put a data-speed on the elements you wants 
+
+```
+ <div data-speed="0.5" class="carre"></div>
+```
+
+The script used to make the parallax work
+
 ```
 var paraEl = document.querySelectorAll("[data-speed]");
 const parallax = () =>{

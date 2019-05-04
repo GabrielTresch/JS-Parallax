@@ -1,6 +1,6 @@
 # JS-Parallax
 
-You have to put a data-speed on the elements you wants 
+In order to use the parallax you will have to put the data-speed on the you want
 
 ```
  <div data-speed="0.5" class="carre"></div>
